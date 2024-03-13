@@ -1,0 +1,24 @@
+.navbar {
+  padding: 30px 0;
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  box-shadow: 0 0 40px 4px rgb(5, 5, 5);
+  background-color: #262626;
+}
+.navbar a {
+  text-decoration: none;
+  color: #a5a5a5;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: #09d513;
+  scale: 1.1;
+}
+
+.navbar .activeLink {
+  color: #09d513;
+}

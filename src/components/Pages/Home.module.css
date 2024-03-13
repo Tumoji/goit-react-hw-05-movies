@@ -1,0 +1,32 @@
+.home {
+  margin: 30px;
+  color: #20be28;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+.home ul {
+  padding: 0;
+  margin-left: 25px;
+  width: 264px;
+}
+.listItem {
+  margin-bottom: 10px;
+}
+.listItem a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #a5a5a5;
+}
+.listItem a:visited {
+  color: #a5a5a5;
+}
+.listItem a:hover {
+  color: #20be28;
+  padding: 10px;
+  font-weight: 700;
+}
